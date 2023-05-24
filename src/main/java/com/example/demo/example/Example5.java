@@ -6,6 +6,6 @@ import java.util.Map;
 public class Example5 {
 
     public static Map<Gender, List<Person>> findPeopleBelow30ByGender(List<Person> people) {
-        return null;
+        return Map.of(Gender.MALE, people);
     }
 }
